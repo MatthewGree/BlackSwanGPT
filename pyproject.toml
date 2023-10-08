@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "blackswangpt"
+version = "0.1.0"
+description = ""
+authors = ["mateusz.kmak <mateusz.kmak@ocado.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+gnews = "^0.3.1"
+numpy = "^1.25.2"
+openai = "^0.27.8"
+tqdm = "^4.65.0"
+datetime = "^5.2"
+newspaper3k = "^0.2.8"
+argparse = "^1.4.0"
+pandas = "^2.0.3"
+tiktoken = "^0.4.0"
+retry = "^0.9.2"
+percache = "^0.4.4"
+fastapi = "^0.103.2"
+uvicorn = "^0.23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
